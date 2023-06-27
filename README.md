@@ -8,3 +8,5 @@ void ssd1306_command(unsigned char command) {
     buffer[1] = command;
     i2c_write(SSD1306_I2C_ADDRESS, buffer, 2);
 } 
+compiled  by
+Code Composer Studio Version: 12.3.0.00005 
